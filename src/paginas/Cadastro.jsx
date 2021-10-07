@@ -23,7 +23,7 @@ const Cadastro = () => {
               Criar Conta
             </Link>
           </button>
-          <button type="button" className="btn btn-outline-warning btn-block">
+          <button onClick={} type="button" className="btn btn-outline-warning btn-block">
             <Link to="/" className="nav-link">
               Voltar
             </Link>

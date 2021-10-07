@@ -1,10 +1,12 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import { Link } from "react-router-dom";
 import Form from "react-bootstrap/Form";
 import Container from "react-bootstrap/Container";
 import NomeDaTela from "../componentes/NomeDaTela";
 
+
 const Home = () => {
+
   return (
     <Container>
       <NomeDaTela Nome="Login" />
@@ -33,6 +35,8 @@ const Home = () => {
               Esqueci minha Senha
             </Link>
           </button>
+          <p>{dados?.username}</p>
+          <p>{dados?.password}</p>
         </Form>
       </div>
     </Container>

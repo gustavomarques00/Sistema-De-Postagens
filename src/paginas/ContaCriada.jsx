@@ -5,19 +5,6 @@ import BonecoSemFundo from "../assets/img/Boneco-sem-Fundo.png";
 import api from '../api/api.js'
 
 const ContaCriada = () => {
-  const [dados, setDados] = useState();
-
-  useEffect(() => {
-    api
-      .post("/sign-up", {
-        username: "Gustavo",
-        password: "123"
-      })
-      .then((response) => setDados(response.data))
-      .catch((err) => {
-        console.error("ops! ocorreu um erro" + err);
-      });
-  }, []);
 
   return (
     <Container>
@@ -31,8 +18,6 @@ const ContaCriada = () => {
         </div>
         <div className="px-5">
           <p className="h4">Conta Criada com Sucesso</p>
-          <p>Usuário: {dados?.username}</p>
-          <p>Senha: {dados?.password}</p>
         </div>
         <button type="button" className="btn btn-outline-warning btn-block pl-5">
           <Link to="/" className="nav-link">
