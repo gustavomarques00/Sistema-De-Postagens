@@ -14,12 +14,12 @@ const MudarSenha = () => {
             <Form.Label>Usuário</Form.Label>
             <Form.Control type="text" placeholder="Usuário" />
           </Form.Group>
-          <button type="button" class="btn btn-outline-info btn-block">
+          <button type="button" className="btn btn-outline-info btn-block">
             <Link to="/senhaRecuperada" className="nav-link">
               Recuperar Senha
             </Link>
           </button>
-          <button type="button" class="btn btn-outline-warning btn-block">
+          <button type="button" className="btn btn-outline-warning btn-block">
             <Link to="/" className="nav-link">
               Voltar a Tela Principal
             </Link>

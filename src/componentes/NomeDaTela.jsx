@@ -5,7 +5,7 @@ const NomeDaTela = (props) => {
   return (
     <Container>
       <div className="py-4 d-flex justify-content-center">
-        <p class="h4">
+        <p className="h4">
           <b>{props.Nome}</b>
         </p>
       </div>

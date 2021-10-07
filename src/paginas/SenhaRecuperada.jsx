@@ -9,15 +9,15 @@ const SenhaRecuperada = () => {
       <div className="d-flex justify-content-center align-items-center pt-5">
         <div className="pr-5">
           <img
-            class="img-thumbnail"
+            className="img-thumbnail"
             src={Boneco}
             alt="Boneco de Sucesso 2"
           ></img>
         </div>
         <div className="px-5">
-          <p class="h4">Sua senha é: VAZIO</p>
+          <p className="h4">Sua senha é: VAZIO</p>
         </div>
-        <button type="button" class="btn btn-outline-warning btn-block pl-5">
+        <button type="button" className="btn btn-outline-warning btn-block pl-5">
           <Link to="/" className="nav-link">
             Voltar a tela de Login
           </Link>

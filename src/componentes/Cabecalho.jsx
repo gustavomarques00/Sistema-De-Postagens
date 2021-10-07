@@ -8,7 +8,7 @@ const Cabecalho = () => {
     <Container className="sticky-top bg-info border-bottom" fluid>
       <Row>
         <Col className="text-center align-middle py-4">
-          <h2 classNamne="display-4">Sistema de Posts</h2>
+          <h2 className="display-4">Sistema de Posts</h2>
         </Col>
       </Row>
     </Container>

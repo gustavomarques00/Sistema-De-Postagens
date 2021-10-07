@@ -18,17 +18,17 @@ const Home = () => {
             <Form.Label>Senha</Form.Label>
             <Form.Control type="password" placeholder="Senha" />
           </Form.Group>
-          <button type="button" class="btn btn-outline-info btn-block">
+          <button type="button" className="btn btn-outline-info btn-block">
             <Link to="/posts" className="nav-link">
               Entrar
             </Link>
           </button>
-          <button type="button" class="btn btn-outline-warning btn-block">
+          <button type="button" className="btn btn-outline-warning btn-block">
             <Link to="/cadastro" className="nav-link">
               Criar Conta
             </Link>
           </button>
-          <button type="button" class="btn btn-outline-danger btn-block">
+          <button type="button" className="btn btn-outline-danger btn-block">
             <Link to="/mudarSenha" className="nav-link">
               Esqueci minha Senha
             </Link>

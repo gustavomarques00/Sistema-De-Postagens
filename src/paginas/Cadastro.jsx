@@ -2,9 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Form from "react-bootstrap/Form";
 import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import NomeDaTela from "../componentes/NomeDaTela";
 
 const Cadastro = () => {
@@ -21,12 +18,12 @@ const Cadastro = () => {
             <Form.Label>Senha</Form.Label>
             <Form.Control type="password" placeholder="Senha" />
           </Form.Group>
-          <button type="button" class="btn btn-outline-info btn-block">
+          <button type="button" className="btn btn-outline-info btn-block">
             <Link to="/ContaCriada" className="nav-link">
               Criar Conta
             </Link>
           </button>
-          <button type="button" class="btn btn-outline-warning btn-block">
+          <button type="button" className="btn btn-outline-warning btn-block">
             <Link to="/" className="nav-link">
               Voltar
             </Link>
