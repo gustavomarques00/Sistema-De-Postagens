@@ -1,10 +1,12 @@
 import React from 'react';
+import Container from 'react-bootstrap/esm/Container';
+import FormPost from './FormPost';
 
 const Posts = () => {
     return(
-        <header>
-            <p>teste</p>
-        </header>
+        <Container>
+            <FormPost />
+        </Container>
     );
 }
 
