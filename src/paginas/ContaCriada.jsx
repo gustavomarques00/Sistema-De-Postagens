@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import BonecoSemFundo from "../assets/img/Boneco-sem-Fundo.png";
-import api from '../api/api.js'
 
 const ContaCriada = () => {
 
